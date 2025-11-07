@@ -1,0 +1,7 @@
+nnUNetTrainer.py has been changed to run ACS network
+remember to use nnUNetTrainer_ori.py when running standard nnunet
+
+predict_3D in nnunet.network_architecture.neural_network has been changed (commented)
+
+nnUNetTrainer line487, have changed use_gaussian: bool = False, default is True
+neural_network line60 self.num_classes = 3 (ori is None)
